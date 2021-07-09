@@ -1,0 +1,36 @@
+.footer{
+    padding: 25px 20px;
+    background: black;
+}
+
+.company__address{
+    text-align: center;
+    padding: 20px 0px;
+    border-top: 1px solid white;
+}
+
+.company__address > b {
+    color: #fff;
+}
+
+.sosmed__icon{
+    text-align: center;
+    padding: 20px 0px;
+    border-top: 1px solid white;
+}
+
+.sosmed__wrapper {
+    position: relative;
+    margin: 30px 0 45px;
+  }
+  
+  .sosmed__images{
+    display: inline-block;
+    place-items: center;
+  }
+
+  .sosmed__image{
+      width: 40px;
+      height: 40px;
+      margin: 0px 20px;
+  }

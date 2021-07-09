@@ -1,0 +1,30 @@
+    .contact__us{
+        padding: 25px 20px;
+        text-align: center;
+        background: black;
+        border-top: 1px solid white;
+    }
+
+    .form{
+        margin: 30px 0px;
+    }
+
+    .form__input{
+        width: 270px;
+        height: 30px;
+        margin-right: 20px;
+        vertical-align: middle;
+    }
+
+    .form__button{
+        width: 150px;
+        height: 30px;
+        vertical-align: middle;
+        border-radius: 15px;
+        background-color: black;
+        color: #fff;
+    }
+
+    .text{
+        color: #fff;
+    }

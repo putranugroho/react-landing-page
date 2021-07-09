@@ -1,0 +1,86 @@
+    .about {
+        padding: 25px 20px;
+        background: black;
+    }  
+
+    .about__container {
+        display: flex;
+        flex-flow: column;
+        align-items: center;
+        max-width: 700px;
+        padding: 30px 0px 20px;
+        width: 90%;
+        margin: 0 auto;
+        border-top: 4px solid white;
+        border-bottom: 4px solid white;
+    }
+
+    .about__container > div {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    p {
+        color: #fff;
+        font-size: 20px;
+        margin-top: 10px;
+    }
+
+    .about__container > img {
+        width: 450px;
+        height: 150px;
+    }
+
+    .about__text{
+        display: flex;
+        flex-flow: column;
+        align-items: center;
+        text-align: center;
+        width: 80%;
+        margin: 0 auto;
+        color: #fff;
+    }
+
+    .about__detail{
+        margin: 20px 0px;
+    }
+    
+    .about__detail > h1{
+        display: inline-block;
+    }
+
+    .about__visi_misi{
+        font-size: 30px;
+        border-bottom: 1px solid white;
+    }
+
+    .player-wrapper {
+        position: relative;
+        padding-top: 56.25% /* Player ratio: 100 / (1280 / 720) */
+    }
+
+    .about__video {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        column-gap: 100px;
+        color: #fff;
+        padding: 50px;
+    }
+
+    .about__sertifikat{
+        width: max-content;
+        margin: 0px;
+        margin-bottom: 20px;
+        font-size: 30px;
+        border-bottom: 1px solid white;
+    }
+
+    .about__video > .about__detail {
+        margin: 30px 0px;
+    }
+      
+    .react-player {
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
