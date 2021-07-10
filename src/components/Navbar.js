@@ -32,6 +32,7 @@ function Navbar() {
         left: 0,
         behavior: 'smooth'
       });
+      setClick(false)
     }
   }
 
@@ -48,6 +49,7 @@ function Navbar() {
         left: 0,
         behavior: 'smooth'
       });
+      setClick(false)
     }
   }
 
@@ -64,6 +66,7 @@ function Navbar() {
         left: 0,
         behavior: 'smooth'
       });
+      setClick(false)
     }
   }
 
@@ -75,6 +78,7 @@ function Navbar() {
         left: 0,
         behavior: 'smooth'
       });
+      setClick(false)
     }
   }
 
