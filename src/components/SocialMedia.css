@@ -4,17 +4,20 @@
   }
   
   .socialmedia > h1 {
+    font-family: 'Roboto', sans-serif;
     text-align: center;
     margin: -10px 0px;
     color: #fff;
   }
 
   .socialmedia > h1 > b {
+    font-family: 'Roboto', sans-serif;
       font-size: 7vw;
       color: #fff;
   }
 
   .socialmedia > h2 {
+    font-family: 'Roboto', sans-serif;
     text-align: center;
     font-size: 30px;
     color: #fff;

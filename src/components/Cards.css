@@ -4,17 +4,20 @@
   }
   
   .cards > h1 {
+    font-family: 'Roboto', sans-serif;
     text-align: center;
     margin: -10px 0px;
     color: #fff;
   }
 
   .cards > h1 > b {
+    font-family: 'Roboto', sans-serif;
       font-size: 60px;
       color: #fff;
   }
 
   .cards > h2 {
+    font-family: 'Roboto', sans-serif;
     text-align: center;
     font-size: 30px;
     color: #fff;
@@ -44,11 +47,13 @@
   }
 
   .cards__container > h2 {
+    font-family: 'Roboto', sans-serif;
     margin-top: 30px;
     color: black;
   }
 
   .cards__container > h2 > b{
+    font-family: 'Roboto', sans-serif;
     font-size: 50px;
     color: black;
   }

@@ -21,6 +21,7 @@
     }
 
     p {
+        font-family: Trajan Pro;
         color: #fff;
         font-size: 20px;
         margin-top: 10px;
@@ -42,14 +43,20 @@
     }
 
     .about__detail{
+        font-family: Trajan Pro;
         margin: 20px 0px;
     }
     
     .about__detail > h1{
         display: inline-block;
     }
+    
+    .about__detail > p{
+        display: none;
+    }
 
     .about__visi_misi{
+        font-family: Trajan Pro;
         font-size: 30px;
         border-bottom: 1px solid white;
     }
@@ -65,10 +72,12 @@
         column-gap: 100px;
         color: #fff;
         padding: 50px;
+        padding-bottom: 0px;
     }
 
     .about__sertifikat{
         text-align: center;
+        font-family: Trajan Pro;
         padding-bottom: 10px;
         margin-bottom: 20px;
         font-size: 30px;
@@ -91,7 +100,19 @@
             grid-template-rows: 1fr 1fr;
         }
 
-        .about__video > .about__detail {
+        .about__detail {
             text-align: center;
+        }
+    
+        .about__detail > p{
+            font-family: Trajan Pro;
+            font-size: 16px;
+            color: blue;
+            margin-left: 5px;
+            display: inline-block;
+        }
+
+        #detail__more1, #detail__more2{
+            display: none;
         }
     }

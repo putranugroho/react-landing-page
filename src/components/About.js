@@ -5,6 +5,18 @@ import ReactPlayer from 'react-player'
 function About() {
     const visimisi = "Visi & Misi"
     const sertifikat = "Sertifikasi Perusahaan / ISO"
+    var truncate = "Read More >>"
+    
+    const readMore = () => {
+      document.getElementById("detail__more1").style.display = "inline-block";
+      document.getElementById("detail__more2").style.display = "inline-block";
+      document.getElementById("readMore").style.display = "none";
+    }
+    const readLess = () => {
+        document.getElementById("detail__more1").style.display = "none";
+        document.getElementById("detail__more2").style.display = "none";
+        document.getElementById("readMore").style.display = "inline-block";
+    }
 
     return (
         <div id="about" className='about'>
@@ -41,11 +53,19 @@ function About() {
                     height='100%'
                     />
                 </div>
-                <div className="about__detail">
-                    <div className="about__sertifikat">{sertifikat}</div>
-                    <h1>K</h1>emasan yang diproduksi oleh Trah Singo Karyan yang bekerja sama dengan Perusahaan Sindoplast di- fabrikasi dan diproduksi dengan mesin tercanggih untuk memberikan kualitas terbaik dan terdaftar pada sistem operasional yang telah memiliki sertifikat resmi bernomor ISO 14001(2015), Sertifikat FSSC 22000, serta Sertifikat ISO 45001 (2018), dan juga sudah bersertifikasi MUI halal. Dengan adanya sertifikasi ini, sistem standar internasional tentu dilaksanakan sebaik mungkin oleh Trah Singo Karyan. Agar sistem manajemen mutu yang digunakan mengukur mutu organisasi, kredibilitas untuk bersaing secara global.
-                    Bersaing positif dengan dinamika kompetisi pasar saat ini, sertifikat ISO yang dimiliki Trah Singo Karyan menjamin kualitas dari produk dan jasa yang ditawarkan, serta menguatkan kepercayaan konsumen. Sehingga setiap produk yang dipercaya- kan kepada Trah Singo Karyan, akan dihasilkan dengan ketepatan, kualitas, dan jaminan terbaik .
-                    Penerapan sertifikat ISO pada Trah Singo Karyan, tentu menjadi pedoman opera- sional perusahaan yang bergantung pada sistem, bukan perorangan. Selain daripada hal tersebut, ISO yang dipegang oleh Trah Singo Karyan menjadi acuan kerja agar setiap karyawan yang bekerja – minus dari kesalahan baik tekni maupun non teknis. Sederhananya, meminimalisir kesalahan kerja yang berdampak pada kurangnya jaminan kualitas produk dan Sebagai bukti pelaksanaan sistem dan diperlukan untuk telusur ketika terjadi masalah.
+                <div>
+                    <div className="about__detail">
+                        <div className="about__sertifikat">{sertifikat}</div>
+                        <h1>K</h1>emasan yang diproduksi oleh Trah Singo Karyan yang bekerja sama dengan Perusahaan Sindoplast di- fabrikasi dan diproduksi dengan mesin tercanggih untuk memberikan kualitas terbaik dan terdaftar pada sistem operasional yang telah memiliki sertifikat resmi bernomor ISO 14001(2015), Sertifikat FSSC 22000, serta Sertifikat ISO 45001 (2018), dan juga sudah bersertifikasi MUI halal. Dengan adanya sertifikasi ini, sistem standar internasional tentu dilaksanakan sebaik mungkin oleh Trah Singo Karyan. Agar sistem manajemen mutu yang digunakan mengukur mutu organisasi, kredibilitas untuk bersaing secara global.
+                        <p id="readMore" onClick={readMore}>Read More >></p>
+                    </div>
+                    <div id="detail__more1" className="about__detail">
+                        Bersaing positif dengan dinamika kompetisi pasar saat ini, sertifikat ISO yang dimiliki Trah Singo Karyan menjamin kualitas dari produk dan jasa yang ditawarkan, serta menguatkan kepercayaan konsumen. Sehingga setiap produk yang dipercaya- kan kepada Trah Singo Karyan, akan dihasilkan dengan ketepatan, kualitas, dan jaminan terbaik .
+                    </div>
+                    <div id="detail__more2" className="about__detail">
+                        Penerapan sertifikat ISO pada Trah Singo Karyan, tentu menjadi pedoman opera- sional perusahaan yang bergantung pada sistem, bukan perorangan. Selain daripada hal tersebut, ISO yang dipegang oleh Trah Singo Karyan menjadi acuan kerja agar setiap karyawan yang bekerja – minus dari kesalahan baik tekni maupun non teknis. Sederhananya, meminimalisir kesalahan kerja yang berdampak pada kurangnya jaminan kualitas produk dan Sebagai bukti pelaksanaan sistem dan diperlukan untuk telusur ketika terjadi masalah.
+                        <p id="readLess" onClick={readLess}>{"<< Read Less"}</p>
+                    </div>
                 </div>
             </div>
         </div>
