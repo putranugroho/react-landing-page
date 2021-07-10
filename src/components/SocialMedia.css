@@ -10,7 +10,7 @@
   }
 
   .socialmedia > h1 > b {
-      font-size: 60px;
+      font-size: 7vw;
       color: #fff;
   }
 
@@ -48,6 +48,11 @@
     grid-template-columns: 1fr 1fr 1fr;
     margin-top: 20px;
     column-gap: 10px;
+  }
+
+  .socialmedia__image{
+    max-width: 100%;
+    height: auto;
   }
   
   .socialmedia__items {
