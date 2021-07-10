@@ -3,7 +3,7 @@ import './SocialMedia.css';
 
 function SocialMedia() {
   return (
-    <div className='socialmedia'>
+    <div id="social" className='socialmedia'>
       <h2>Instagram</h2>
       <h1><b>@Trahsingokaryan.id</b></h1>
       <div className='socialmedia__container'>

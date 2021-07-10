@@ -1,11 +1,11 @@
 .footer{
-    padding: 25px 20px;
+    padding: 25px 0px;
     background: black;
 }
 
 .company__address{
     text-align: center;
-    padding: 20px 0px;
+    padding: 20px;
     border-top: 1px solid white;
 }
 
@@ -15,7 +15,7 @@
 
 .sosmed__icon{
     text-align: center;
-    padding: 20px 0px;
+    padding: 20px;
     border-top: 1px solid white;
 }
 

@@ -90,4 +90,8 @@
             grid-template-columns: none;
             grid-template-rows: 1fr 1fr;
         }
+
+        .about__video > .about__detail {
+            text-align: center;
+        }
     }

@@ -7,7 +7,7 @@ function About() {
     const sertifikat = "Sertifikasi Perusahaan / ISO"
 
     return (
-        <div className='about'>
+        <div id="about" className='about'>
             <div className='about__container'>
                 <img
                     className='about__item__img'
