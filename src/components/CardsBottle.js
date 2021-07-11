@@ -389,7 +389,7 @@ function CardsBottle() {
           <ul className='cards__items'>
             <CardItem
               id="unicorn-30ml"
-              src="images/bottle/30ml/30ml_unicorn/30ml_unicorn_white.png"
+              src="images/bottle/30ml/30ml_Unicorn/30ml_unicorn_white.png"
               header='Material Description 30ml'
               text='Volume:30ml'
               caps='Material caps: PET '
