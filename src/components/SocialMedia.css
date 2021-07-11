@@ -56,6 +56,7 @@
     grid-template-columns: 1fr 1fr 1fr;
     margin-top: 20px;
     column-gap: 10px;
+    row-gap: 10px;
   }
 
   .socialmedia__image{
@@ -156,5 +157,15 @@
   @media only screen and (max-width: 1024px) {
     .socialmedia__item {
       margin-bottom: 2rem;
+    }
+  }
+
+  @media only screen and (max-width: 426px) {
+    .socialmedia__images{
+      grid-template-columns: 1fr 1fr;
+    }
+
+    .social__header{
+      width: 80%;
     }
   }

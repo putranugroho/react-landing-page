@@ -27,8 +27,6 @@ function SocialMedia() {
               alt=""
               src='images/mask-group-3.svg'
             />
-          </div>
-          <div className="socialmedia__images">
             <img
               className='socialmedia__image'
               alt=""

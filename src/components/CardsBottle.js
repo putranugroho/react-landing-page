@@ -29,35 +29,35 @@ function CardsBottle() {
   const unicornBottle30ml = [
     {
       id:"white",
-      src:"images/bottle/30ml/30ml_Unicorn/30ml_flat_white.png"
+      src:"images/bottle/30ml/30ml_Unicorn/30ml_unicorn_white.png"
     },
     {
       id:"black",
-      src:"images/bottle/30ml/30ml_Unicorn/30ml_flat_black.png"
+      src:"images/bottle/30ml/30ml_Unicorn/30ml_unicorn_black.png"
     },
     {
       id:"blue",
-      src:"images/bottle/30ml/30ml_Unicorn/30ml_flat_blue_tf.png"
+      src:"images/bottle/30ml/30ml_Unicorn/30ml_unicorn_blue_tf.png"
     },
     {
       id:"green",
-      src:"images/bottle/30ml/30ml_Unicorn/30ml_flat_green_tf.png"
+      src:"images/bottle/30ml/30ml_Unicorn/30ml_unicorn_green_tf.png"
     },
     {
       id:"pink",
-      src:"images/bottle/30ml/30ml_Unicorn/30ml_flat_pink.png"
+      src:"images/bottle/30ml/30ml_Unicorn/30ml_unicorn_pink.png"
     },
     {
       id:"purple",
-      src:"images/bottle/30ml/30ml_Unicorn/30ml_flat_purple_tf.png"
+      src:"images/bottle/30ml/30ml_Unicorn/30ml_unicorn_purple_tf.png"
     },
     {
       id:"red",
-      src:"images/bottle/30ml/30ml_Unicorn/30ml_flat_red_tf.png"
+      src:"images/bottle/30ml/30ml_Unicorn/30ml_unicorn_red_tf.png"
     },
     {
       id:"yellow",
-      src:"images/bottle/30ml/30ml_Unicorn/30ml_flat_yellow_tf.png"
+      src:"images/bottle/30ml/30ml_Unicorn/30ml_unicorn_yellow_tf.png"
     }
   ];
 
@@ -389,7 +389,7 @@ function CardsBottle() {
           <ul className='cards__items'>
             <CardItem
               id="unicorn-30ml"
-              src="images/bottle/30ml/30ml_flat/30ml_flat_white.png"
+              src="images/bottle/30ml/30ml_unicorn/30ml_unicorn_white.png"
               header='Material Description 30ml'
               text='Volume:30ml'
               caps='Material caps: PET '

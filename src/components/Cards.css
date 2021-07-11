@@ -51,9 +51,9 @@
 
   .dot {
     cursor: pointer;
-    height: 15px;
-    width: 15px;
-    margin: 0 2px;
+    height: 25px;
+    width: 25px;
+    margin: 0 5px;
     border: 1px solid rgb(230, 230, 230);
     border-radius: 50%;
     display: inline-block;
@@ -183,5 +183,21 @@
   @media only screen and (max-width: 1024px) {
     .cards__item {
       margin-bottom: 2rem;
+    }
+  }
+
+  @media only screen and (max-width: 426px) {
+    .dot {
+      height: 20px;
+      width: 20px;
+      margin: 0 2px;
+    }
+
+    .cards__container > img {
+      width: 80%;
+    }
+
+    .cards__header{
+      width: 80%;
     }
   }
