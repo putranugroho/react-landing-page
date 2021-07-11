@@ -6,6 +6,7 @@
 .company__address{
     text-align: center;
     padding: 20px;
+    color: #fff;
     border-top: 1px solid white;
 }
 
@@ -13,10 +14,24 @@
     color: #fff;
 }
 
+.company__address > div {
+    font-family: Roboto;
+    font-weight: 600;
+    margin: 5px 0;
+}
+
+.company__address > .address__detail{
+    font-weight: 400;
+}
+
 .sosmed__icon{
     text-align: center;
     padding: 20px;
     border-top: 1px solid white;
+}
+
+.sosmed__icon > p {
+    font-family: Roboto;
 }
 
 .sosmed__wrapper {
@@ -33,4 +48,15 @@
       width: 40px;
       height: 40px;
       margin: 0px 20px;
+  }
+
+  @media screen and (max-width: 960px) {
+    .company__address{
+        font-size: 14px;
+    }
+
+    .address__header{
+        font-size: 16px;
+    }
+ 
   }

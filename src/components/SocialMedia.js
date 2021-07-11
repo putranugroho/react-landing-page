@@ -4,8 +4,11 @@ import './SocialMedia.css';
 function SocialMedia() {
   return (
     <div id="social" className='socialmedia'>
-      <h2>Instagram</h2>
-      <h1><b>@Trahsingokaryan.id</b></h1>
+      <img
+        className='social__header'
+        alt=""
+        src='/images/instagram-title.png'
+      />
       <div className='socialmedia__container'>
         <div className='socialmedia__wrapper'>
           <div className="socialmedia__images">

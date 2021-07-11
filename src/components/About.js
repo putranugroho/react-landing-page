@@ -1,11 +1,10 @@
 import React from 'react'
 import "./About.css"
-import ReactPlayer from 'react-player'
+// import ReactPlayer from 'react-player'
 
 function About() {
     const visimisi = "Visi & Misi"
     const sertifikat = "Sertifikasi Perusahaan / ISO"
-    var truncate = "Read More >>"
     
     const readMore = () => {
       document.getElementById("detail__more1").style.display = "inline-block";
@@ -35,7 +34,7 @@ function About() {
                 <div className="about__detail">
                     <h1>T</h1>rah Singo karyan memulai perjalanan dengan melakukan riset sejak tahun 2017 untuk memproduksi botol kemasan E - Liquid (cairan rokok elektrik) yang memiliki kualitas terbaik dan dapat memenuhi kebutuhan konsumen.
                 </div><div className="about__detail">
-                    Diproduksi di Indonesia, tepatnya di wilayah Jawa Barat, Kota Cimahi, Kabupaten Bandung Barat - Trah Singo Karyan berdiri pada Februari tahun 2020 dengan komitmen untuk membantu menumbuhkan industri e-liquid di Indonesia agar dapat tumbuh dan bersaing dalam pasar domestik maupun global.
+                Diproduksi di Indonesia, tepatnya di wilayah Jawa Barat, tepatnya di Kabupaten Bandung Barat - Trah Singo Karyan berdiri pada Februari tahun 2020 dengan komitmen untuk membantu menumbuhkan industri e-liquid di Indonesia agar dapat tumbuh dan bersaing dalam pasar domestik maupun global.
                 </div>
             </div>
             <div className='about__text'>
@@ -45,14 +44,19 @@ function About() {
                 </div>
             </div>
             <div className="about__video">
-                <div className='player-wrapper'>
+                {/* <div className='player-wrapper'>
                     <ReactPlayer
                     className='react-player'
                     url='https://www.youtube.com/watch?v=NUYvbT6vTPs'
                     width='100%'
                     height='100%'
                     />
-                </div>
+                </div> */}
+                    <img
+                        className='about__image'
+                        alt=""
+                        src='images/img-3.svg'
+                        />
                 <div>
                     <div className="about__detail">
                         <div className="about__sertifikat">{sertifikat}</div>

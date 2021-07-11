@@ -2,27 +2,12 @@
     padding: 25px 20px;
     background: black;
   }
+
+  .cards__header{
+    display: flex;
+    margin: auto;
+  }
   
-  .cards > h1 {
-    font-family: 'Roboto', sans-serif;
-    text-align: center;
-    margin: -10px 0px;
-    color: #fff;
-  }
-
-  .cards > h1 > b {
-    font-family: 'Roboto', sans-serif;
-      font-size: 60px;
-      color: #fff;
-  }
-
-  .cards > h2 {
-    font-family: 'Roboto', sans-serif;
-    text-align: center;
-    font-size: 30px;
-    color: #fff;
-  }
-
   .cards__banner{
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -46,26 +31,66 @@
     background: #fff;
   }
 
-  .cards__container > h2 {
-    font-family: 'Roboto', sans-serif;
-    margin-top: 30px;
-    color: black;
+  #flat{
+    padding-bottom: 30px;
   }
 
-  .cards__container > h2 > b{
-    font-family: 'Roboto', sans-serif;
-    font-size: 50px;
-    color: black;
+  .cards__container > img {
+    margin: 30px 00px;
   }
-  
+
+  .slide-container {
+    margin: 0px 30px;
+    background-color: #fff;
+  }
+
+  .image-container > img {
+    width: 100%;
+    height: auto;
+  }
+
+  .dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    border: 1px solid rgb(230, 230, 230);
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+  }
+
+  #clear{
+    background-color: #fff;
+  }
+  #black{
+    background-color: black;
+  }
+  #red{
+    background-color: red;
+  }
+  #blue{
+    background-color: blue;
+  }
+  #green{
+    background-color: green;
+  }
+  #yellow{
+    background-color: yellow;
+  }
+  #pink{
+    background-color: rgb(255, 0, 170);
+  }
+  #purple{
+    background-color: purple;
+  }
+
   .cards__wrapper {
     position: relative;
     margin: 30px 0 45px;
   }
   
   .cards__items {
-    max-width: 100%;
-    height: auto;
     margin-bottom: 24px;
   }
   
@@ -115,7 +140,7 @@
   }
   
   .cards__item__img {
-    position: absolute;
+    /* position: absolute; */
     top: 0;
     right: 0;
     bottom: 0;
@@ -134,12 +159,12 @@
   }
   
   .cards__item__info {
-    padding: 20px 30px 30px;
+    padding: 20px;
   }
   
   .cards__item__text {
     color: #252e48;
-    font-size: 18px;
+    font-size: 12px;
     line-height: 24px;
   }
   

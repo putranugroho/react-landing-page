@@ -2,6 +2,11 @@
     padding: 25px 20px;
     background: black;
   }
+
+  .social__header{
+    display: flex;
+    margin: auto;
+  }
   
   .socialmedia > h1 {
     font-family: 'Roboto', sans-serif;
