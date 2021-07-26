@@ -1,6 +1,6 @@
 import React from 'react';
 import './SocialMedia.css';
-import InstagramEmbed from 'react-instagram-embed';
+// import InstagramEmbed from 'react-instagram-embed';
 
 function SocialMedia() {
   return (
