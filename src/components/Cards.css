@@ -35,7 +35,7 @@
   }
 
   .cards__container > img {
-    margin: 30px 00px;
+    margin: 30px 0px;
   }
 
   .slide-container {
@@ -199,5 +199,9 @@
 
     .cards__header{
       width: 80%;
+    }
+
+    .slide-container {
+      padding: 20px;
     }
   }
