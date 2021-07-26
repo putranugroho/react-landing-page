@@ -89,7 +89,7 @@ function Navbar() {
           <Link to='/' className='navbar-logo' onClick={closeMobileMenu}>
             <img
               alt=""
-              src='/images/logo-singo.svg'
+              src='/images/Logo.svg'
             />
           </Link>
           <div className='menu-icon' onClick={handleClick}>

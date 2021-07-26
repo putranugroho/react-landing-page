@@ -6,16 +6,16 @@ function About() {
     const visimisi = "Visi & Misi"
     const sertifikat = "Sertifikasi Perusahaan / ISO"
     
-    const readMore = () => {
-      document.getElementById("detail__more1").style.display = "inline-block";
-      document.getElementById("detail__more2").style.display = "inline-block";
-      document.getElementById("readMore").style.display = "none";
-    }
-    const readLess = () => {
-        document.getElementById("detail__more1").style.display = "none";
-        document.getElementById("detail__more2").style.display = "none";
-        document.getElementById("readMore").style.display = "inline-block";
-    }
+    // const readMore = () => {
+    //   document.getElementById("detail__more1").style.display = "inline-block";
+    //   document.getElementById("detail__more2").style.display = "inline-block";
+    //   document.getElementById("readMore").style.display = "none";
+    // }
+    // const readLess = () => {
+    //     document.getElementById("detail__more1").style.display = "none";
+    //     document.getElementById("detail__more2").style.display = "none";
+    //     document.getElementById("readMore").style.display = "inline-block";
+    // }
 
     return (
         <div id="about" className='about'>
@@ -23,54 +23,57 @@ function About() {
                 <img
                     className='about__item__img'
                     alt=""
-                    src='/images/banner-singo.svg'
+                    src='/images/About.svg'
                 />
-                <div>
-                <p>EST</p>
-                <p>2017</p>
-                </div>
             </div>
             <div className='about__text'>
                 <div className="about__detail">
-                    <h1>T</h1>rah Singo karyan memulai perjalanan dengan melakukan riset sejak tahun 2017 untuk memproduksi botol kemasan E - Liquid (cairan rokok elektrik) yang memiliki kualitas terbaik dan dapat memenuhi kebutuhan konsumen.
+                Trah Singo Karyan memulai perjalanan dengan melakukan riset sejak tahun 2017 dengan tujuan agar dapat melakukan proses produksi botol kemasan E - Liquid yang memiliki kualitas prima.
                 </div><div className="about__detail">
-                Diproduksi di Indonesia, tepatnya di wilayah Jawa Barat, tepatnya di Kabupaten Bandung Barat - Trah Singo Karyan berdiri pada Februari tahun 2020 dengan komitmen untuk membantu menumbuhkan industri e-liquid di Indonesia agar dapat tumbuh dan bersaing dalam pasar domestik maupun global.
+                Untuk dapat dengan segera memenuhi kebutuhan konsumen maka Trah Singo Karyan melakukan proses produksi botol kemasan E – Liquid di wilayah Jawa Barat, Kabupaten Bandung Barat.
+                </div><div className="about__detail">
+                Komitmen kami adalah mendorong pertumbuhan industry E – Liquid di Indonesia agar dapat tumbuh dan bersaing dalam pasar domestik maupun global.
                 </div>
             </div>
             <div className='about__text'>
-                <div className="about__visi_misi">{visimisi}</div>
-                <div className="about__detail">
-                    <h1>T</h1>rah Singo Karyan berusaha berperan sebagai supplier terbesar di Indonesia untuk memenuhi 50% dari kebutuhan kemasan industri vape. Menyesuaikannya sambil berkontribusi dengan kebutuhan pasar lokal tanpa menutup kemungkinan membuat serangkaian inovasi atau terobosan yang mengikuti pergerakan di kancah Internasi- onal dalm industri e-liquid.
+                <div className="about__header">{visimisi}</div>
+                <div className="about__detail2">
+                    Menjadi pemasok terbesar untuk kemasan dan bahan baku industri Vape di Indonesia dan pasar global.
+                </div>
+                <div className="about__detail2">
+                    Produk yang dapat diandalkan dan sebagai mitra terpercaya.
                 </div>
             </div>
-            <div className="about__video">
-                {/* <div className='player-wrapper'>
-                    <ReactPlayer
-                    className='react-player'
-                    url='https://www.youtube.com/watch?v=NUYvbT6vTPs'
-                    width='100%'
-                    height='100%'
+            {/* <div className="about__video">
+                <img
+                    className='about__image'
+                    alt=""
+                    src='images/img-3.svg'
                     />
-                </div> */}
-                    <img
-                        className='about__image'
-                        alt=""
-                        src='images/img-3.svg'
-                        />
-                <div>
-                    <div className="about__detail">
-                        <div className="about__sertifikat">{sertifikat}</div>
-                        <h1>K</h1>emasan yang diproduksi oleh Trah Singo Karyan yang bekerja sama dengan Perusahaan Sindoplast di- fabrikasi dan diproduksi dengan mesin tercanggih untuk memberikan kualitas terbaik dan terdaftar pada sistem operasional yang telah memiliki sertifikat resmi bernomor ISO 14001(2015), Sertifikat FSSC 22000, serta Sertifikat ISO 45001 (2018), dan juga sudah bersertifikasi MUI halal. Dengan adanya sertifikasi ini, sistem standar internasional tentu dilaksanakan sebaik mungkin oleh Trah Singo Karyan. Agar sistem manajemen mutu yang digunakan mengukur mutu organisasi, kredibilitas untuk bersaing secara global.
-                        <p id="readMore" onClick={readMore}>Read More >></p>
-                    </div>
-                    <div id="detail__more1" className="about__detail">
-                        Bersaing positif dengan dinamika kompetisi pasar saat ini, sertifikat ISO yang dimiliki Trah Singo Karyan menjamin kualitas dari produk dan jasa yang ditawarkan, serta menguatkan kepercayaan konsumen. Sehingga setiap produk yang dipercaya- kan kepada Trah Singo Karyan, akan dihasilkan dengan ketepatan, kualitas, dan jaminan terbaik .
-                    </div>
-                    <div id="detail__more2" className="about__detail">
-                        Penerapan sertifikat ISO pada Trah Singo Karyan, tentu menjadi pedoman opera- sional perusahaan yang bergantung pada sistem, bukan perorangan. Selain daripada hal tersebut, ISO yang dipegang oleh Trah Singo Karyan menjadi acuan kerja agar setiap karyawan yang bekerja – minus dari kesalahan baik tekni maupun non teknis. Sederhananya, meminimalisir kesalahan kerja yang berdampak pada kurangnya jaminan kualitas produk dan Sebagai bukti pelaksanaan sistem dan diperlukan untuk telusur ketika terjadi masalah.
-                        <p id="readLess" onClick={readLess}>{"<< Read Less"}</p>
-                    </div>
+            </div> */}
+            <div className='about__text'>
+                <div className="about__header">{sertifikat}</div>
+                <div className="about__detail">
+                Kepuasan pelanggan adalah tujuan utama kami, sehingga untuk itu kami melakukan berbagai upaya demi terwujudnya perbaikan yang berkelanjutan, antara lain;
                 </div>
+                <ul className="about__list">
+                    <li>
+                        Proses produksi kemasan dilakukan dengan memperhatikan dan mengikuti prosedur yang sesuai dengan 
+                        <span className="list__highlight"> Food Safety Management System (FSSC) 22000 (version 4.1), Certification scheme for food safety management systems consisting of the following elements: ISO 22000:2005, ISO/TS 22002-4;2013 and additional FSSC 22000 requirements (version 4.1).</span><br/>             
+                        ( Certificate No: FSM40221 dan FSM40238 )
+                    </li>
+                    <li>
+                        Proses produksi ini juga dilakukan sesuai dengan pemenuhan terhadap persyaratan pada standar 
+                        <span className="list__highlight"> ISO 14001:2015</span>, tentang <span className="list__highlight"> Environmental Management System.</span><br/>  
+                        ( Certificate No: EMS41418 )
+                    </li>
+                    <li>
+                        Dalam pemenuhan terhadap keselamatan kerja, proses produksi kemasan juga dilakukan sesuai dengan standar 
+                        <span className="list__highlight"> ISO 45001:2018, tentang Occupational health and safety management systems – Requirements with guidance for use.</span><br/>                   
+                        ( Certificate No: HSM41356 )
+                    </li>
+                    <li>Sedangkan untuk menjamin kebutuhan konsumen, proses produksi kemasan juga telah dilengkapi dengan sertifikat halal dari MUI Indonesia. (Sertifikat halal No  01171069580312)</li>
+                </ul>
             </div>
         </div>
     )

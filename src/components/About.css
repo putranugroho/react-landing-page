@@ -1,18 +1,13 @@
     .about {
         padding: 25px 20px;
-        background: black;
+        background: #05203A;
     }  
 
     .about__container {
         display: flex;
         flex-flow: column;
         align-items: center;
-        max-width: 700px;
-        padding: 30px 0px 20px;
-        width: 90%;
-        margin: 0 auto;
-        border-top: 4px solid white;
-        border-bottom: 4px solid white;
+        margin: 20px 0;
     }
 
     .about__container > div {
@@ -21,7 +16,7 @@
     }
 
     p {
-        font-family: Trajan Pro;
+        font-family: 'Montserrat', sans-serif;
         color: #fff;
         font-size: 20px;
         margin-top: 10px;
@@ -49,24 +44,28 @@
     }
 
     .about__detail{
-        font-family: Trajan Pro;
-        margin: 20px 0px;
-    }
-    
-    .about__detail > h1{
-        font-family: Trajan Pro;
-        display: inline-block;
-    }
-    
-    .about__detail > p{
-        font-family: Roboto;
-        display: none;
+        font-family: 'Montserrat', sans-serif;
+        margin: 7px 0px;
+        text-align: left;
+        color: rgba(190, 151, 120, 1);
+        line-height: 1.3;
     }
 
-    .about__visi_misi{
-        font-family: Trajan Pro;
-        font-size: 30px;
-        border-bottom: 1px solid white;
+    .about__detail2{
+        font-family: 'Montserrat', sans-serif;
+        margin: 7px 0px;
+        align-self: baseline;
+        text-align: left;
+        color: rgba(190, 151, 120, 1);
+        line-height: 1.3;
+    }
+
+    .about__header{
+        font-family: 'Montserrat', sans-serif;
+        font-size: 45px;
+        margin: 20px 0;
+        color: rgba(190, 151, 120, 1);
+        border-bottom: 1px solid rgba(190, 151, 120, 1);
     }
 
     .player-wrapper {
@@ -83,17 +82,36 @@
         padding-bottom: 0px;
     }
 
-    .about__sertifikat{
+    /* .about__sertifikat{
         text-align: center;
-        font-family: Trajan Pro;
+        font-family: 'Montserrat', sans-serif;
         padding-bottom: 10px;
         margin-bottom: 20px;
         font-size: 30px;
-        border-bottom: 1px solid white;
+        border-bottom: 1px solid rgba(190, 151, 120, 1);
+    } */
+
+    .about__list{
+        text-align: left;
+        margin-left: 20px;
+        color: rgba(190, 151, 120, 1);
+    }
+
+    .list__highlight{
+        font-family: 'Montserrat', sans-serif;
+        font-style: italic;
+        font-weight: bold;
     }
 
     .about__video > .about__detail {
         margin: 30px 0px;
+    }
+
+    li{
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 400;
+        margin: 10px 0;
+        line-height: 1.3;
     }
       
     .react-player {

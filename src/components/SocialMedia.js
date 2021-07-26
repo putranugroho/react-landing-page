@@ -1,5 +1,6 @@
 import React from 'react';
 import './SocialMedia.css';
+import InstagramEmbed from 'react-instagram-embed';
 
 function SocialMedia() {
   return (
@@ -11,7 +12,12 @@ function SocialMedia() {
       />
       <div className='socialmedia__container'>
         <div className='socialmedia__wrapper'>
-          <div className="socialmedia__images">
+          <img
+            className='socialmedia__image'
+            alt=""
+            src='images/Group-4.svg'
+          />
+          {/* <div className="socialmedia__images">
             <img
               className='socialmedia__image'
               alt=""
@@ -42,35 +48,7 @@ function SocialMedia() {
               alt=""
               src='images/mask-group-6.svg'
             />
-          </div>
-          {/* <ul className='socialmedia__items'>
-            <CardItem
-              src='images/mask-group-1.svg'
-              text='30 ml'
-            />
-            <CardItem
-              src='images/mask-group-2.svg'
-              text='60 ml Short'
-            />
-            <CardItem
-              src='images/mask-group-3.svg'
-              text='60 ml'
-            />
-          </ul>
-          <ul className='socialmedia__items'>
-            <CardItem
-              src='images/mask-group-4.svg'
-              text='30 ml'
-            />
-            <CardItem
-              src='images/mask-group-5.svg'
-              text='60 ml Short'
-            />
-            <CardItem
-              src='images/mask-group-6.svg'
-              text='60 ml'
-            />
-          </ul> */}
+          </div> */}
         </div>
       </div>
     </div>

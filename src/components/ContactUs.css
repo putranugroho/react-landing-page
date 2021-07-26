@@ -26,5 +26,7 @@
     }
 
     .text{
+        font-family: 'Montserrat', sans-serif;
         color: #fff;
+        font-weight: 600;
     }

@@ -15,7 +15,7 @@
 }
 
 .company__address > div {
-    font-family: Roboto;
+    font-family: 'Montserrat', sans-serif;
     font-weight: 600;
     margin: 5px 0;
 }
@@ -31,7 +31,8 @@
 }
 
 .sosmed__icon > p {
-    font-family: Roboto;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
 }
 
 .sosmed__wrapper {

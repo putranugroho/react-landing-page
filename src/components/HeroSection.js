@@ -9,14 +9,14 @@ function HeroSection() {
             <img
               className='hero__image'
               alt=""
-              src='images/img-2.jpg'
+              src='images/banner_flat_blue 1.svg'
             />
-            <div className="title-container">
+            {/* <div className="title-container">
                 <h1>We are Trah Singo Karyan</h1>
                 <h1>We Might be small but we also</h1>
                 <h1>Known as the biggest supliers</h1>
                 <p>Made in Indonesia professional Custom</p>
-            </div>
+            </div> */}
         </div>
     )
 }
