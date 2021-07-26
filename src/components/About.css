@@ -61,8 +61,8 @@
     }
 
     .about__header{
-        font-family: 'Montserrat', sans-serif;
-        font-size: 45px;
+        font-family:'Trajan Pro Regular';
+        font-size: 35px;
         margin: 20px 0;
         color: rgba(190, 151, 120, 1);
         border-bottom: 1px solid rgba(190, 151, 120, 1);

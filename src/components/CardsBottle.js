@@ -171,13 +171,14 @@ function CardsBottle() {
   }
 
   return (
-    <div id="product" className='cards'>
+    <div className='cards'>
       <img
         className='cards__product'
         alt=""
         src='/images/fruity.svg'
       />
       <img
+        id="product"
         className='cards__header'
         alt=""
         src='/images/our-product-bottle.png'

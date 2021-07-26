@@ -5,19 +5,16 @@ import InstagramEmbed from 'react-instagram-embed';
 function SocialMedia() {
   return (
     <div id="social" className='socialmedia'>
-      <img
-        className='social__header'
-        alt=""
-        src='/images/instagram-title.png'
-      />
+      <a href='https://www.instagram.com/trahsingokaryan.id/'>
+        <img
+          className='social__header'
+          alt=""
+          src='/images/instagram-title.png'
+        />
+      </a>
       <div className='socialmedia__container'>
         <div className='socialmedia__wrapper'>
-          <img
-            className='socialmedia__image'
-            alt=""
-            src='images/Group-4.svg'
-          />
-          {/* <div className="socialmedia__images">
+          <div className="socialmedia__images">
             <img
               className='socialmedia__image'
               alt=""
@@ -48,7 +45,7 @@ function SocialMedia() {
               alt=""
               src='images/mask-group-6.svg'
             />
-          </div> */}
+          </div>
         </div>
       </div>
     </div>
