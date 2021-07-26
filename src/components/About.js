@@ -41,7 +41,10 @@ function About() {
                     Menjadi pemasok terbesar untuk kemasan dan bahan baku industri Vape di Indonesia dan pasar global.
                 </div>
                 <div className="about__detail2">
-                    Produk yang dapat diandalkan dan sebagai mitra terpercaya.
+                    Trah Singo Karyan berkiprah dalam pasar lokal maupun global dengan melakukan berbagai inovasi maupun terobosan yang mengikuti tren dunia.
+                </div>
+                <div className="about__detail2">
+                    Trah Singo Karyan sebagai pemasok besar selalu berkontribusi secara nyata dalam mendahulukan kebutuhan pemangku kepentingan dengan melakukan perbaikan yang berkelanjutan.
                 </div>
             </div>
             {/* <div className="about__video">
@@ -68,7 +71,7 @@ function About() {
                         ( Certificate No: EMS41418 )
                     </li>
                     <li>
-                        Dalam pemenuhan terhadap keselamatan kerja, proses produksi kemasan juga dilakukan sesuai dengan standar 
+                        Dalam pemenuhan terhadap standar keselamatan kerja, proses produksi kemasan juga dilakukan sesuai dengan standar
                         <span className="list__highlight"> ISO 45001:2018, tentang Occupational health and safety management systems – Requirements with guidance for use.</span><br/>                   
                         ( Certificate No: HSM41356 )
                     </li>
