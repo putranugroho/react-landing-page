@@ -8,6 +8,11 @@
     margin: auto;
   }
   
+  .social__header:hover {
+    border-bottom: 4px solid #fff;
+    transition: all 0.2s ease-out;
+  }
+
   .socialmedia > h1 {
     font-family: 'Montserrat', sans-serif;
     text-align: center;
