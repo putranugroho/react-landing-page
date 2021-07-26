@@ -47,15 +47,22 @@ function About() {
                     Trah Singo Karyan sebagai pemasok besar selalu berkontribusi secara nyata dalam mendahulukan kebutuhan pemangku kepentingan dengan melakukan perbaikan yang berkelanjutan.
                 </div>
             </div>
-            {/* <div className="about__video">
+            <div className='about__text'>
+                <div className="about__header">{sertifikat}</div>
+            </div>
+            <div className="about__video">
                 <img
                     className='about__image'
                     alt=""
-                    src='images/img-3.svg'
+                    src='images/Namasindoplas_depan.svg'
                     />
-            </div> */}
+                <img
+                    className='about__image'
+                    alt=""
+                    src='images/Namasindoplas.svg'
+                    />
+            </div>
             <div className='about__text'>
-                <div className="about__header">{sertifikat}</div>
                 <div className="about__detail">
                 Kepuasan pelanggan adalah tujuan utama kami, sehingga untuk itu kami melakukan berbagai upaya demi terwujudnya perbaikan yang berkelanjutan, antara lain;
                 </div>

@@ -4,7 +4,7 @@ import "./HeroSection.css"
 
 function HeroSection() {
     return (
-        <div className="hero-container">
+        <div id="home" className="hero-container">
             {/* <video src='/videos/video-4.mp4' autoPlay loop muted /> */}
             <img
               className='hero__image'

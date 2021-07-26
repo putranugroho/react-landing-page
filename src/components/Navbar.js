@@ -19,6 +19,23 @@ function Navbar() {
     prevScrollpos = currentScrollPos;
   }
 
+  const dragToHome = () => {
+    const home = document.getElementById('home')
+    var currentScrollPos = home.offsetTop;
+    var stickyHeight = 0
+    if(home) {
+      if (prevScrollpos > currentScrollPos) {
+        stickyHeight = 80
+      }
+      window.scroll({
+        top: home.offsetTop-stickyHeight,
+        left: 0,
+        behavior: 'smooth'
+      });
+      setClick(false)
+    }
+  }
+
   const dragToAbout = () => {
     const about = document.getElementById('about')
     var currentScrollPos = about.offsetTop;
@@ -90,6 +107,7 @@ function Navbar() {
             <img
               alt=""
               src='/images/Logo.svg'
+              onClick={dragToHome}
             />
           </Link>
           <div className='menu-icon' onClick={handleClick}>
