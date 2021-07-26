@@ -122,7 +122,8 @@
     @media screen and (max-width: 960px) {
         .about__video {        
             grid-template-columns: none;
-            padding: 40px 20px 0px;
+            grid-template-rows: 1fr 1fr;
+            row-gap: 25px;
         }
 
         .about__text{
